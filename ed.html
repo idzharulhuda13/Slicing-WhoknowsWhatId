@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <!-- aos css -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style/frontend/ed.css" />
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>WhoKnowsWhat - Exclusive Discussion</title>
+  </head>
+  <body>
+    <section class="header">
+      <nav class="navbar navbar-expand-lg" data-aos="fade-up">
+        <div class="container-fluid">
+          <h1><a href="index.html">EXCLUSIVE DISCUSSION</a></h1>
+          <div class="d-flex nav-links">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="schools.html">WKWSchools</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">WhoKnowsWhat</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="content-header">
+        <div class="d-flex row flex-row-reverse">
+          <h1 class="text-end mt-5" data-aos="fade-up" data-aos-delay="200">
+            an
+            <span
+              >EXCLUSIVE <br />
+              DISCUSSION</span
+            >
+            with
+          </h1>
+
+          <h1 class="text-end mt-5" data-aos="fade-up" data-aos-delay="400">
+            <span>Luthfian Iriana</span> <br />
+            Co-Founder and CEO <br />
+            Comika.id
+          </h1>
+
+          <div
+            class="d-grid col-4 mt-5"
+            data-aos="fade-up"
+            data-aos-delay="600"
+          >
+            <a class="btn btn-register" href="register.html" type="button">
+              Register Here
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-1" data-aos="fade-up">
+      <div class="row text-center">
+        <div class="text-1">
+          What they say about <span>EXCLUSIVE DISCUSSION</span>
+        </div>
+        <div class="slide hi-slide">
+          <div
+            class="hi-prev"
+            onClick="document.getElementById('audio_fika').pause(); return false;"
+          ></div>
+          <div
+            class="hi-next"
+            onClick="document.getElementById('audio_fika').pause(); return false;"
+          ></div>
+          <ul>
+            <li>
+              <img
+                src="images/Gian.png"
+                alt=""
+                onClick="document.getElementById('audio_fika').play(); return false;"
+              />
+              <audio id="audio_fika">
+                <source src="audio/fika.mp3" type="audio/mpeg" />
+              </audio>
+            </li>
+            <li>
+              <img src="images/athar.png" alt="" />
+              <audio controls>
+                <source src="audio/gita.mp3" type="audio/mpeg" />
+              </audio>
+            </li>
+            <li>
+              <img src="images/miftah.png" alt="" />
+              <audio controls>
+                <source src="audio/Iyas.mp3" type="audio/mpeg" />
+              </audio>
+            </li>
+            <li>
+              <img src="images/zidan.png" alt="" />
+              <audio controls>
+                <source src="audio/hilfron.mp3" type="audio/mpeg" />
+              </audio>
+            </li>
+            <li>
+              <img src="images/huda.png" alt="" />
+              <audio controls>
+                <source src="audio/mike.mp3" type="audio/mpeg" />
+              </audio>
+            </li>
+            <li>
+              <img src="images/Gian.png" alt="" />
+            </li>
+            <li>
+              <img src="images/athar.png" alt="" />
+            </li>
+            <li>
+              <img src="images/miftah.png" alt="" />
+            </li>
+          </ul>
+        </div>
+        <div class="text-2">
+          We will wait for you in <br />
+          the next <span>EXCLUSIVE DISCUSSION</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="js/jquery.hislide.js"></script>
+    <script>
+      $(".slide").hiSlide();
+    </script>
+  </body>
+</html>

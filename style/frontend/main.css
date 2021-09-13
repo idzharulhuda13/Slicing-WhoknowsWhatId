@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.nav-link {
+  color: #0c0d36;
+}
+
+.nav-link:hover {
+  color: #0c0d36;
+}
+
+.header {
+  min-height: 100vh;
+  background-color: #f6a208;
+  background-image: url(/images/Banner-Luthfi.png);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+nav {
+  margin-right: 75px;
+  margin-left: 75px;
+  font-weight: 600;
+}
+
+.nav-links ul li::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background: white;
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+}
+
+.nav-links ul li:hover::after {
+  width: 90%;
+}
+
+.content-header {
+  min-height: 70vh;
+  margin-top: 150px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.content-header h1 {
+  color: black;
+  font-weight: 600;
+}
+
+.content-header span {
+  color: white;
+  font-weight: bold;
+}
+
+.btn-register {
+  transition: 0.5s;
+  font-size: 24px;
+  font-weight: 600;
+  background-color: white;
+}
+
+.btn-register:hover {
+  transform: scale(1.2);
+}
+/*  */
+.info-wkw {
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.info-wkw h1 {
+  color: #f6a208;
+  font-weight: bold;
+  margin: 0;
+}
+
+.info-wkw h2 {
+  color: black;
+  margin: 0;
+  font-weight: 600;
+}
+
+.content-1 {
+  min-height: 100vh;
+  width: 100%;
+  background-image: url(/images/alarm-clock-removebg-preview.png);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.content-2 {
+  min-height: 100vh;
+  width: 100%;
+  background-color: #f6a208;
+  background-image: url(/images/banner-ed.png);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.wkw-banner-1 {
+  min-height: 100vh;
+}
+
+.wkw-banner-2 {
+  min-height: 100vh;
+}
+
+.wkw-banner-1 h1 {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.wkw-banner-1 h1 span {
+  color: #f6a208;
+}
+
+.btn-schools {
+  background-color: #f6a208;
+  color: white;
+  font-size: 24px;
+  font-weight: 600;
+  transition: 0.5s;
+}
+
+.btn-schools:hover {
+  color: white;
+  transform: scale(1.2);
+}
+
+.wkw-banner-2 h1 {
+  color: white;
+  font-weight: bold;
+}
+
+.wkw-banner-2 h1 span {
+  color: black;
+}
+
+.btn-ed {
+  background-color: white;
+  font-size: 24px;
+  font-weight: 600;
+  transition: 0.5s;
+}
+
+.btn-ed:hover {
+  transform: scale(1.2);
+}
